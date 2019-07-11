@@ -1,0 +1,84 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  background-color: #f3e8ee;
+  padding-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+}
+
+/* NAVIGATION */
+#navbar {
+	width: 100%;
+	color: #f3e8ee;
+	background-color: #01071F;
+}
+
+#navbar ul {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+
+#navbar li {
+	display: inline-block;
+	padding: 25px;
+}
+
+/* WELCOME SECTION */
+#welcome-section {
+	height: 100vh;
+}
+
+.hero {
+	background-image: url('../images/jungle-hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#main-header {
+  font-size: 36px;
+  text-align: center;
+  color: #f3e8ee;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-46%, -46%);
+}
+
+#main-header h1 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#main-header p {
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  margin: 0;
+
+}
+
+#main-header p:nth-of-type(2n) {
+  font-size: 42px;
+  letter-spacing: 7px;
+}
+
+/* SKILLS SECTION */
