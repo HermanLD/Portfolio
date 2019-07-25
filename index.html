@@ -2,17 +2,19 @@
 
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <title>Herman's World</title>
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600,700|Montserrat:400,500&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600,700|Montserrat:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/1e3ee62c54.js"></script>
 
 </head>
 <body>
   <nav id="navbar">
   	<ul>
-  		<li><a href="#skills">SKILLS</a></li>
+  		<li><a href="#skills-section">SKILLS</a></li>
   		<li><a href="#projects">PROJECTS</a></li>
   		<li><a href="#contact">CONTACT</a></li>
   	</ul>
@@ -27,31 +29,71 @@
     </header>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list" id="left-skills">
-      <li>HTML/CSS</li>
-      <li>Bootstrap</li>
-      <li>Javascript</li>
-      <li>jQuery</li>
-      <li>Git/Github</li>
-    </ul>
-    <ul class="skills-list" id="right-skills">
-      <li>SMCSS</li>
-      <li>BEM</li>
-      <li>Email Development</li>
-      <li>Accessability</li>
-      <li>Mobile Responsive</li>
-    </ul>
+  <section id="skills-section">
+    <h2>SKILLS</h2>
+    <div class="skills-list">
+      <div class="skills">
+        <table>
+          <tr>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>HTML/CSS</td>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>SMCSS</td>
+          </tr>
+          <tr>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Bootstrap</td>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>BEM</td>
+          </tr>
+          <tr>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Javascript</td>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Email Development</td>
+          </tr>
+          <tr>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>jQuery</td>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Accessability</td>
+          </tr>
+          <tr>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Git/Github</td>
+            <td><object class="bullet-point" data="images/bullet-point.svg" type="image/svg+xml"><img src="images/bullet-point.jpg" /></object>Mobile Responsive</td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="project-jungle">
+    <h2>PROJECTS</h2>
+    <div class="project-flex">
+      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/ColorGameCapture.jpg');"></div></a>
+      <a href="https://codepen.io/MFrink/pen/dxMpwV" target="-_blank"><div class="project-tile" style="background-image: url('images/narwal.jpg');"></div></a>
+    </div>
+    <div class="project-flex">
+      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/ToDoCapture.jpg');"></div></a>
+      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/placeholder1.jpg');"></div></a>
+    </div>
+    <div class="project-flex">
+      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/placeholder2.jpg');"></div></a>
+      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/placeholder3.jpg');"></div></a>
+    </div>
   </section>
 
   <section id="contact">
+    <h2>Talk to Me</h2>
+    <h3>Here to talk business</h3>
+    <div class="contact-links">
+      <a id="profile-link" href="https://www.freecodecamp.org/hermanld" target="_blank"><i class="fab fa-free-code-camp fa-8x"></i></a>
+      <a href="https://github.com/HermanLD"><i class="fab fa-github fa-7x"></i></a>
+      <a href=""><i class="fab fa-google fa-7x"></i></a>
+    </div>
   </section>
 
   <footer>
+    <p class="cp-portfolio">&copy;2019 Herman Dardon</p>
+    <nav id="footer-navbar">
+    	<ul>
+        <li><a href="#welcome-section"></a></li>
+    		<li><a href="#skills-section">SKILLS</a></li>
+    		<li><a href="#projects">PROJECTS</a></li>
+    	</ul>
+    </nav>
   </footer>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
