@@ -55,7 +55,7 @@ section {
 
 
 /* ---------------------------------------- */
-/* HERO */
+/* NAVBAR */
 /* ---------------------------------------- */
 
 .navbar {
@@ -93,6 +93,7 @@ section {
 	color: white;
 	position: relative;
 	height: 350px;
+	background-image: url('../images/mobile-hero.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -116,6 +117,7 @@ section {
 .about-me {
 	padding: 50px 15px;
 	line-height: 2.2rem;
+	font-weight: 500;
 }
 
 
