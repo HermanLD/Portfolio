@@ -4,15 +4,16 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Herman's World</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600,700|Montserrat:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/1e3ee62c54.js"></script>
 
+  <title>Herman's Portfolio</title>
+
 </head>
 <body>
-  <nav id="navbar">
+  <nav class="navbar">
   	<ul>
   		<li><a href="#about">SKILLS</a></li>
   		<li><a href="#projects">PROJECTS</a></li>
@@ -20,51 +21,48 @@
   	</ul>
   </nav>
 
-  <section id="welcome-section" class="hero" style="background-image: url('');">
-    <header id="main-header">
+  <section id="welcome-section" class="hero" style="background-image: url('images/mobile-hero.jpg');">
+    <header class="main-header">
       <h1>Herman Dardon</h1>
-      <p>Front-End<br>Developer</p>
+      <p class="title">Front-End<br>Developer</p>
     </header>
   </section>
 
-  <section id="about">
-    <h2>About me</h2>
-    <p>I'm a Front-end developer from Reno, NV.
-      Beening interested in graphic communication industry, Front-end Web Development has been an avenue to apply my passion and work.
-      As a self-taught Front-end developer, I have worked with some popular web technologies such as Bootstrap, and jQuery. Though my strengths lie with JavaScript, CSS, and HTML; I am excited to learn new technologies. 
+  <section id="about" class="content-sections">
+    <p class="about-me">I'm a Front-end developer from Reno, NV.
+      <br>As a self-taught Front-end developer, I have worked with some popular web technologies such as Bootstrap, and jQuery. <br>Though my strengths lie with JavaScript, CSS, and HTML; <br>I am excited to learn new technologies. 
     </p>
+  </section>
+
+  <section id="projects" class="content-sections">
+    <h2 class="projects-heading">Work I've done</h2>
+    <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/base-apparel-coming-soon.png');"></div></a>
+    <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/intro-sign-up-component.png');"></div></a>
+    <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/huddle-landing-page.png');"></div></a>
+    <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/four-card-feature.png');"></div></a>
+    <a href="#" target="_blank"><div class="project-tile" style="background-image: url('images/single-price-grid-component.png');"></div></a>
+  </section>
+
+  <section id="contact" class="content-sections">
+    <h2>Contact Me <br>or see what I'm doing!</h2>
+    <p class="contact-email">Email: hmndardon@outlook.com</p>
     
-  </section>
-
-  <section id="projects">
-    <h2>PROJECTS</h2>
-      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-      <a href="#" target="-_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-      <a href="#" target="_blank"><div class="project-tile" style="background-image: url('');"></div></a>
-  </section>
-
-  <section id="contact">
-    <h2>Talk to Me</h2>
-    <h3>Here to talk business</h3>
     <div class="contact-links">
-      <a href="" target="_blank"><i class=""></i></a>
-      <a href="https://github.com/HermanLD"><i class="fab fa-github fa-7x"></i></a>
-      <a href=""><i class="fab fa-google fa-7x"></i></a>
+      <a href="https://www.linkedin.com/in/herman-dardon/" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a>
+      <a href="https://github.com/HermanLD" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+      <a href="https://codepen.io/MFrink" target="_blank"><i class="fab fa-codepen fa-5x"></i></i></a>
     </div>
   </section>
 
   <footer>
-    <p class="cp-portfolio">&copy;2019 Herman Dardon</p>
     <nav class="footer-navbar">
     	<ul>
-        <li><a href="#welcome-section"></a></li>
+        <li><a href="#welcome-section">BACK TO TOP</a></li>
     		<li><a href="#skills-section">SKILLS</a></li>
     		<li><a href="#projects">PROJECTS</a></li>
     	</ul>
     </nav>
+    <p>&copy;2019 Herman Dardon</p>
   </footer>
 
   <script src=""></script>

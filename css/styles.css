@@ -1,0 +1,190 @@
+::root {
+	--white: #f3e8ee;
+	--black: #01071f;
+	--green: #3c493f;
+	--yellow: #ffbb00;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: var(--white);
+	text-align: center;
+}
+
+a {
+	color: var(--black);
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: 15px 0;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+}
+
+.content-sections {
+	padding: 45px 0px;
+}
+
+.contact-links a {
+	padding: 15px;
+}
+
+
+/* ---------------------------------------- */
+/* HERO */
+/* ---------------------------------------- */
+
+.navbar {
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background-color: var(--white);
+}
+
+.navbar ul {
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+	justify-content: center;
+	list-style: none;
+	padding: 20px 0;
+}
+
+.navbar li {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.navbar li:nth-child(2) {
+	margin: 0px 20px;
+}
+
+
+/* ---------------------------------------- */
+/* HERO */
+/* ---------------------------------------- */
+
+.hero {
+	color: white;
+	position: relative;
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-header {
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+}
+
+.title {
+	font-size: 2.5rem;
+}
+
+/* ---------------------------------------- */
+/* ABOUT */
+/* ---------------------------------------- */
+
+.about-me {
+	padding: 50px 15px;
+	line-height: 2.2rem;
+}
+
+
+/* ---------------------------------------- */
+/* PROJECTS */
+/* ---------------------------------------- */
+
+#projects {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.project-tile {
+	max-width: 700px;
+	min-width: 350px;
+	flex-grow: 1;
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+	margin: 5px 5px;
+}
+
+.project-heading {
+	text-align: center;
+}
+
+
+/* ---------------------------------------- */
+/* CONTACTS */
+/* ---------------------------------------- */
+
+.contact-email {
+	margin: 20px;
+	font-weight: 500;
+}
+
+.contact-links {
+	margin: 30px 0;
+}
+
+
+/* ---------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------- */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+.footer-navbar {
+	padding: 20px 0 25px 0;
+}
+
+.footer-navbar li {
+	line-height: 30px;
+}
+
+
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+/* ---------------------------------------- */
+
+@media only screen and (min-width: 760px) {
+	.hero {
+		height: 100vh;
+		background-image: url('../images/jungle-hero.jpg');
+	}
+}
