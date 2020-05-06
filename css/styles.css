@@ -161,15 +161,14 @@ section {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	max-width: 1200px;
 }
 
 .project-tile {
-	width: 350px;
+	width: 300px;
+	height: 260px;
 	-webkit-box-flex: 1;
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
-	height: 250px;
 	background-position: center;
 	background-size: cover;
 	margin: 5px 5px;
@@ -234,5 +233,9 @@ footer {
 	.hero {
 		height: 100vh;
 		background-image: url('../images/jungle-hero.jpg');
+	}
+
+	.project-tile {
+		width: 600px;
 	}
 }
