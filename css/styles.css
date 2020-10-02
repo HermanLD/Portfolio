@@ -63,6 +63,17 @@ a {
 
 /**|----------*/
 /**| MODULES */
+
+.home-btn {
+  font-size: 4.5rem;
+  color: #ffffff;
+  margin-left: 2.5rem;
+}
+
+.home-btn:hover {
+  color: var(--color-primary);
+}
+
 .herman {
   text-align: center;
   color: #ffffff;
