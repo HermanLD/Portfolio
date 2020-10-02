@@ -8,7 +8,7 @@
   },
   {
     "description": "An online recipe for chicken ramen based on the DevChallenges Recipe Page challenge",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601595168/portfolio/chicken-ramen-recipe.vercel.app__ot3czj.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_scale,w_700/v1601595168/portfolio/chicken-ramen-recipe.vercel.app__ot3czj.png",
     "siteUrl": "https://chicken-ramen-recipe.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/chicken-ramen-recipe",
     "isFeat": "true"
