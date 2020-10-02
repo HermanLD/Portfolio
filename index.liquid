@@ -1,0 +1,58 @@
+---json
+{
+  "title": "Project2.0",
+  "name": "Herman Dardon",
+  "jobTitle": "Front-end Developer",
+  "description": "I'm a self-taught Developer from Reno, Nevada. Creating web apps and building sites with javascript."
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>{{ title }}</title>
+</head>
+<body>
+  <header id="header">
+    <div class="herman">
+      <h1 class="herman-name">{{ name }}</h1>
+      <p class="herman-title">{{ jobTitle }}</p>
+      <p class="herman-descript">{{ description }}</p>
+    </div>
+    <ul class="contact">
+
+
+      <li class="work-link contact-link">
+        <a class="work-btn" href="feat/index.html">
+          <i class="work-btn-icon fas fa-arrow-circle-right"></i>
+          <span class="work-btn-text">MY WORK</span>
+        </a>
+      </li>
+
+
+      <li class="contact-link">
+        <a href="https://www.linkedin.com/in/herman-dardon/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="contact-link">
+        <a href="https://github.com/HermanLD">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </li>
+      <li class="contact-link">
+        <a href="https://codepen.io/MFrink">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </li>
+    </ul>
+  </header>
+</body>
+</html>

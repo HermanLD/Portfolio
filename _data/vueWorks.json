@@ -1,0 +1,16 @@
+[
+  {
+    "description": "A Crypto Stock market app built with Vuejs and Bootstrap",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601404858/stock-trader_tyjzbb.jpg",
+    "siteUrl": "https://the-stock-trader.now.sh/",
+    "codeUrl": "https://github.com/HermanLD/the-stock-trader",
+    "isFeat": "true"
+  },
+  {
+    "description": "A Quote/Todo App that allows you to create quotes or reminders",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601404858/portfolio/wonderful-quotes-one_xkvvju.jpg",
+    "siteUrl": "https://wonderful-quotes-one.now.sh/",
+    "codeUrl": "https://github.com/HermanLD/wonderful-quotes",
+    "isFeat": "true"
+  }
+]
