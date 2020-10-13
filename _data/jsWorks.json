@@ -1,5 +1,12 @@
 [
   {
+    "description": "The Great RGB Game - A RBG color guessing game",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1602630499/portfolio/great-rgb-game_xcwjtj.png",
+    "siteUrl": "https://the-great-rgb-game.vercel.app/",
+    "codeUrl": "https://github.com/HermanLD/the-great-rgb-game",
+    "isFeat": ""
+  },
+  {
     "description": "Dice Game Based off of Jonas Schmedtmann's Pig game project from his Complete JavaScript Udemy course",
     "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_scale,w_700/v1601581044/portfolio/pig-game-omega.vercel.app__s9fs5c.png",
     "siteUrl": "https://pig-game-omega.vercel.app/",
