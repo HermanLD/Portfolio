@@ -22,7 +22,7 @@
   },
   {
     "description": "Responsive Team page",
-    "imgUrl": "https://res-console.cloudinary.com/nimbus8/thumbnails/transform/v1/image/upload//v1601613164/cG9ydGZvbGlvL215LXRlYW0temV0YS52ZXJjZWwuYXBwX19pcWlub2k=/drilldown",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601613164/portfolio/my-team-zeta.vercel.app__iqinoi.png",
     "siteUrl": "https://my-gallery.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/my-gallery",
     "isFeat": "false"
