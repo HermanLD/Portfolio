@@ -4,7 +4,7 @@
     "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1602630499/portfolio/great-rgb-game_xcwjtj.png",
     "siteUrl": "https://the-great-rgb-game.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/the-great-rgb-game",
-    "isFeat": true
+    "isFeat": false
   },
   {
     "description": "Dice Game Based off of Jonas Schmedtmann's Pig game project from his Complete JavaScript Udemy course",
