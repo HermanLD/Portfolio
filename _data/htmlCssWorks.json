@@ -4,7 +4,7 @@
     "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601404859/portfolio/base-apparel-coming-soon_whczg0.png",
     "siteUrl": "https://base-apparel-coming-soon-kfz9vhmhi.now.sh/",
     "codeUrl": "https://github.com/HermanLD/base-apparel-coming-soon",
-    "isFeat": false
+    "isFeat": true
   },
   {
     "description": "An online recipe for chicken ramen based on the DevChallenges Recipe Page challenge",
