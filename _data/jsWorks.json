@@ -11,13 +11,13 @@
     "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601581044/portfolio/pig-game-omega.vercel.app__s9fs5c.png",
     "siteUrl": "https://pig-game-omega.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/pig-game",
-    "isFeat": "true"
+    "isFeat": true
   },
   {
     "description": "Membership Sign Up landing page",
     "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601404858/portfolio/intro-sign-up-component_inw182.png",
     "siteUrl": "https://intro-sign-up-component-g5cp380zu.now.sh/",
     "codeUrl": "https://github.com/HermanLD/Intro-sign-up-component",
-    "isFeat": "true"
+    "isFeat": true
   }
 ]
