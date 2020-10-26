@@ -1,35 +1,35 @@
 [
   {
     "description": "Base Apparel coming soon page",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601404859/portfolio/base-apparel-coming-soon_whczg0.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601404859/portfolio/base-apparel-coming-soon_whczg0.png",
     "siteUrl": "https://base-apparel-coming-soon-kfz9vhmhi.now.sh/",
     "codeUrl": "https://github.com/HermanLD/base-apparel-coming-soon",
     "isFeat": true
   },
   {
     "description": "An online recipe for chicken ramen based on the DevChallenges Recipe Page challenge",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_scale,w_700/v1601595168/portfolio/chicken-ramen-recipe.vercel.app__ot3czj.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601595168/portfolio/chicken-ramen-recipe.vercel.app__ot3czj.png",
     "siteUrl": "https://chicken-ramen-recipe.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/chicken-ramen-recipe",
     "isFeat": "true"
   },
   {
     "description": "Interior Consultant landing page",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_scale,w_700/v1601596912/portfolio/interior-consultant.vercel.app__1_suqyyl.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601596912/portfolio/interior-consultant.vercel.app__1_suqyyl.png",
     "siteUrl": "https://interior-consultant.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/interior-consultant",
     "isFeat": "false"
   },
   {
     "description": "Responsive Team page",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601613164/portfolio/my-team-zeta.vercel.app__iqinoi.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601613164/portfolio/my-team-zeta.vercel.app__iqinoi.png",
     "siteUrl": "https://my-gallery.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/my-gallery",
     "isFeat": "false"
   },
   {
     "description": "In this project the main goals were to build with webpack and practice CSS",
-    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/v1601613462/portfolio/my-gallery.vercel.app__jzasuz.png",
+    "imgUrl": "https://res.cloudinary.com/nimbus8/image/upload/c_fill,g_north,h_252,w_400/v1601613462/portfolio/my-gallery.vercel.app__jzasuz.png",
     "siteUrl": "https://my-gallery.vercel.app/",
     "codeUrl": "https://github.com/HermanLD/my-gallery",
     "isFeat": "false"
