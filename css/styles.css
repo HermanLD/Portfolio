@@ -302,9 +302,7 @@ a {
   }
 
   .contact {
-    bottom: 5%;
-    right: -15%;
-    transform: translate(-50%, -50%);
+    bottom: 10%;
   }
 
   .contact-link {
@@ -321,7 +319,3 @@ a {
     transform: translateX(0) scale(1);
   }
 }
-/*
---fsize-base: 50%; //8
---fsize-base: 43.75%; //7
-*/
