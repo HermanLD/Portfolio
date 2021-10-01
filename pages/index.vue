@@ -1,5 +1,8 @@
 <template>
-  <h1>{{ home.title }}</h1>
+  <div>
+    <h1>{{ home.title }}</h1>
+    <button class="app-button">TEST</button>
+  </div>
 </template>
 
 <script>
