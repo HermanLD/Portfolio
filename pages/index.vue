@@ -1,7 +1,15 @@
 <template>
   <div>
-    <h1>{{ home.title }}</h1>
-    <button class="app-button">TEST</button>
+    <h1 class="about-name">
+      {{ home.title }}
+      <span class="about-title">{{ home.job_title }}</span>
+    </h1>
+    <p class="about-sub-text">{{ home.description }}</p>
+
+    <!-- BUTTON to PORTFOLIO CODE -->
+    <AppButton :href="home.portfolio_url" btn-link="true"
+      >Portfolio Code</AppButton
+    >
   </div>
 </template>
 

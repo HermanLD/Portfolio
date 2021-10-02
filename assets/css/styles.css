@@ -22,18 +22,19 @@
   /*
   COLORS
   */
-  --clr-primary: #cfa600;
-  --clr-secondary: #5f785f;
+  --clr-primary-1: rgb(207, 166, 0);
+  --clr-primary-2: rgb(207, 182, 83);
+  --clr-secondary: rgb(95, 120, 95);
 
   /* PRIMARY TEXT COLORS */
-  --clr-white: #ebebeb;
+  --clr-white: rgb(235, 235, 235);
 
   /* SECONDARY TEXT COLORS */
-  --clr-gray-1: #bab7be;
-  --clr-gray-2: #66676f;
+  --clr-gray-1: rgb(186, 183, 190);
+  --clr-gray-2: rgb(102, 103, 111);
 
   /* SOCIAL LINKS COLORS */
-  --clr-gray-3: #353d51;
+  --clr-gray-3: rgb(53, 61, 81);
 
   /* BACKGROUNDS COLORS */
   --clr-bg-1: rgba(235, 235, 235, 0.1);
@@ -51,10 +52,6 @@
   --space-5: 6rem;
   --space-6: 7.2rem;
   --space-7: 12rem;
-
-  --clr-vue: #41b883;
-  --clr-js: #f0db4f;
-  --clr-css: #2565ae;
 }
 
 *,
@@ -78,7 +75,7 @@ body {
 button,
 button:hover {
   background-color: none;
-  border: 1px solid black;
+  border: none;
 }
 
 ul {
@@ -89,4 +86,9 @@ a,
 a:active {
   text-decoration: none;
   color: inherit;
+}
+
+/**|----------*/
+/**| LAYOUTS */
+.page-wrapper {
 }
