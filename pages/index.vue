@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>TEST</h1>
-    <button>Test Button</button>
+    <button class="py-24 px-32 bg-primary-100 hover:bg-primary-200">
+      Test Button
+    </button>
     <input type="button" value="TEST BTN" />
     <input id="test-email" type="email" name="email" placeholder="TEST EMAIL" />
     <input
