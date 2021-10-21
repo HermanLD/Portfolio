@@ -23,17 +23,4 @@ export default {
 }
 </script>
 
-<style>
-.app-button {
-  --font-sizing: 1.8rem;
-  padding: var(--space-2) var(--space-4);
-  background-color: var(--clr-primary-1);
-  color: var(--clr-gray-3);
-  font-size: var(--font-sizing);
-  font-weight: var(--fw-bold);
-}
-.app-button:hover,
-.app-button:active {
-  background-color: var(--clr-primary-2);
-}
-</style>
+<style></style>

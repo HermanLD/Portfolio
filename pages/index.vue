@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1 class="about-name">
-      {{ home.title }}
-      <span class="about-title">{{ home.job_title }}</span>
-    </h1>
-    <p class="about-sub-text">{{ home.description }}</p>
-
-    <!-- BUTTON to PORTFOLIO CODE -->
-    <AppButton :href="home.portfolio_url" btn-link="true"
-      >Portfolio Code</AppButton
-    >
+    <h1>TEST</h1>
+    <button>Test Button</button>
+    <input type="button" value="TEST BTN" />
+    <input id="test-email" type="email" name="email" placeholder="TEST EMAIL" />
+    <input
+      id="test-input"
+      type="text"
+      name="text-input"
+      placeholder="TEST INPUT"
+    />
   </div>
 </template>
 
