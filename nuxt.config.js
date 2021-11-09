@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-portfolio',
+    title: 'Herman Dardon | Portfolio',
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,14 +14,35 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: './assets/favicon.ico' },
+      {
+        href: 'https://fonts.googleapis.com/css?family=Varela+Round',
+        rel: 'stylesheet',
+      },
+      {
+        href: 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i',
+        rel: 'stylesheet',
+      },
+    ],
+    script: [
+      {
+        src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js',
+        defer: true,
+      },
+      {
+        src: 'https://use.fontawesome.com/releases/v5.15.4/js/all.js',
+        crossorigin: 'anonymous',
+        defer: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['./assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['./plugins/nav-states.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -30,8 +51,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://tailwindcss.nuxtjs.org/
-    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

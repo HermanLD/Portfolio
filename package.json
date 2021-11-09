@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "storybook": "nuxt storybook",
+    "storybook:build": "nuxt storybook build",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -19,7 +21,6 @@
     "@babel/eslint-parser": "^7.14.7",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^4.2.1",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",

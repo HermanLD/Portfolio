@@ -1,5 +1,5 @@
 <template>
-  <div class="app-wrap">
+  <div>
     <h1 v-if="error.statusCode === 404">Page not found</h1>
     <h1 v-else>An error occurred</h1>
     <NuxtLink to="/">Home page</NuxtLink>
@@ -12,14 +12,6 @@ export default {
     error: {
       type: Number,
       default: 200,
-    },
-  },
-  head: {
-    htmlAttrs: {
-      class: 'base-sizing',
-    },
-    bodyAttrs: {
-      class: 'base-font',
     },
   },
 }
