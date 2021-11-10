@@ -17,9 +17,11 @@
       >
         <div class="d-flex justify-content-center">
           <div class="text-center">
-            <h1 class="mx-auto my-0 text-uppercase">Herman Dardon</h1>
+            <h1 class="mx-auto my-0 text-uppercase">
+              {{ about.title }}
+            </h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5">
-              Front-end Web Developer.
+              {{ about.job_title }}
             </h2>
             <SocialLinks></SocialLinks>
           </div>
@@ -32,22 +34,23 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8">
             <h2 class="text-white mb-4">
-              Building with JavaScript, CSS, & HTML
+              {{ about.short_description }}
             </h2>
             <p class="text-white-50">
-              As self-taught Developer from Reno, Nevada. I focus on building
-              accessible, interactive user interfaces, sites and web apps.
-              Striving to become an adaptible Developer by honing my skills with
-              the core web languages.
+              {{ about.description }}
             </p>
           </div>
         </div>
-        <!-- <img class="img-fluid" src="../assets/images/ipad.png" alt="..." /> -->
+        <img
+          class="img-fluid"
+          src="../assets/images/ipad.png"
+          alt="An Ipad with a website on display"
+        />
       </div>
     </section>
     <!-- Projects-->
     <section id="projects" class="projects-section bg-light">
-      <AppProjects></AppProjects>
+      <AppProjects :projects="projects"></AppProjects>
     </section>
     <!-- Signup-->
     <section id="signup" class="signup-section">
@@ -56,7 +59,7 @@
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Contact Me!</h2>
-            <AppForm></AppForm>
+            <!-- <AppForm></AppForm> -->
           </div>
         </div>
       </div>
@@ -79,9 +82,13 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const home = await $content('about').fetch()
+    const about = await $content('about').fetch()
+    const projects = await $content('projects').fetch()
 
-    return { home }
+    return {
+      about,
+      projects,
+    }
   },
 }
 </script>

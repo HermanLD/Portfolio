@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Weather App",
+    "slug": "weather-app",
+    "description": "Fullstack app built using Vue.js, Node, and Express",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/weather-app-frontend-sigma.vercel.app__ytvpyy.png",
+    "site": "https://weather-app-frontend-sigma.vercel.app/",
+    "repository": "https://github.com/HermanLD/weather-app-frontend"
+  },
+  {
+    "title": "The Stock Trader",
+    "slug": "stock-trader",
+    "description": "A Crypto Stock market app built with Vue.js and Bootstrap",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/the-stock-trader.vercel.app__1_wb2vak.png",
+    "site": "https://the-stock-trader.now.sh/",
+    "repository": "https://github.com/HermanLD/the-stock-trader"
+  },
+  {
+    "title": "Luiza's Blog",
+    "slug": "luizas-blog",
+    "description": "Blog built using Nuxt.js as a static site generator and Forestry CMS",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/luizas-blog.vercel.app__euyebr.png",
+    "site": "https://luizas-blog.vercel.app/",
+    "repository": "https://github.com/HermanLD/luizas-blog"
+  },
+  {
+    "title": "The great RGB Game",
+    "slug": "rgb-game",
+    "description": "RBG color guessing game built w/ vanilla Javascript.",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489431/Portfolio/the-great-rgb-game.vercel.app__djjltg.png",
+    "site": "https://the-great-rgb-game.vercel.app/",
+    "repository": "https://github.com/HermanLD/the-great-rgb-game"
+  },
+  {
+    "title": "Dice Pig Game",
+    "slug": "dice-game",
+    "description": "Vanilla Javascript Dice Pig game",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/pig-game-omega.vercel.app__c7bcd7.png",
+    "site": "https://pig-game-omega.vercel.app/",
+    "repository": "https://github.com/HermanLD/pig-game"
+  },
+  {
+    "title": "Sign Up Landing Page",
+    "slug": "sign-up",
+    "description": "Membership Sign Up landing page w/ Javascript form validation",
+    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/intro-sign-up-component.vercel.app__lybrz7.png",
+    "site": "https://intro-sign-up-component-g5cp380zu.now.sh/",
+    "repository": "https://github.com/HermanLD/Intro-sign-up-component"
+  }
+]
