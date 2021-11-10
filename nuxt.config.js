@@ -13,6 +13,16 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { property: 'og:title', content: 'My Portfolio' },
+      {
+        property: 'og:description',
+        content: 'Showcase of my work in web development',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://res.cloudinary.com/nimbus8/image/upload/v1636573988/Portfolio/portfolio_g9n5kf.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './assets/favicon.ico' },
