@@ -5,9 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/projects.json
+  label: Projects
+  match: "**/*"
+- type: document
   path: content/about.yml
   label: About
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
