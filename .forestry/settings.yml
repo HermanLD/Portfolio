@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/projects.json
   label: Projects
-  match: "**/*"
 - type: document
   path: content/about.yml
   label: About
