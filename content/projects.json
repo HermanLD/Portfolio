@@ -1,5 +1,13 @@
 [
   {
+    "title": "Insure Landing Page",
+    "slug": "insure-landing-page",
+    "description": "A landing page built from png image mockups",
+    "image": "https://raw.githubusercontent.com/HermanLD/insure-landing/main/images/insure-screenshot.png",
+    "site": "https://insure-landing-seven.vercel.app/",
+    "repository": "https://github.com/HermanLD/insure-landing"
+  },
+  {
     "title": "Weather App",
     "slug": "weather-app",
     "description": "Fullstack app built using Vue.js, Node, and Express",
@@ -22,14 +30,6 @@
     "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/luizas-blog.vercel.app__euyebr.png",
     "site": "https://luizas-blog.vercel.app/",
     "repository": "https://github.com/HermanLD/luizas-blog"
-  },
-  {
-    "title": "The great RGB Game",
-    "slug": "rgb-game",
-    "description": "RBG color guessing game built w/ vanilla Javascript.",
-    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489431/Portfolio/the-great-rgb-game.vercel.app__djjltg.png",
-    "site": "https://the-great-rgb-game.vercel.app/",
-    "repository": "https://github.com/HermanLD/the-great-rgb-game"
   },
   {
     "title": "Dice Pig Game",
