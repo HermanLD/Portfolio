@@ -43,8 +43,8 @@
         </div>
         <img
           class="img-fluid"
-          src="../assets/images/ipad.png"
-          alt="An Ipad with a website on display"
+          src="../assets/images/reno-city-landscape.png"
+          alt="Reno city landscape"
         />
       </div>
     </section>
@@ -59,7 +59,7 @@
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Contact Me!</h2>
-            <!-- <AppForm></AppForm> -->
+            <AppForm></AppForm>
           </div>
         </div>
       </div>

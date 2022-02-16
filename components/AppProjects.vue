@@ -9,7 +9,7 @@
     >
       <div class="col-xl-8 col-lg-7">
         <img
-          class="img-fluid mb-3 mb-lg-0"
+          class="filter-grayscale img-fluid mb-3 mb-lg-0"
           :src="project.image"
           alt="Project image"
         />
@@ -40,3 +40,9 @@ export default {
   },
 }
 </script>
+
+<style>
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+</style>

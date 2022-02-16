@@ -2,14 +2,12 @@
   <form id="contactForm" :action="myEmail" class="form-signup">
     <!-- Email address input-->
     <div class="input-group-newsletter">
+      <input type="text" name="_honey" style="display: none" />
       <input
-        id="sender-name"
-        class="form-control"
-        name="name"
-        type="text"
-        placeholder="Enter Your Name..."
-        aria-label="Enter Your Name..."
-        required
+        type="hidden"
+        name="_subject"
+        value="Web Client | Portfolio"
+        style="display: none"
       />
       <input
         id="emailAddress"
@@ -44,7 +42,7 @@ export default {
     }
   },
   async fetch() {
-    this.myEmail = await this.$nuxt.context.env.secretEmail
+    this.myEmail = await this.$nuxt.context.env.MY_EMAIL
   },
 }
 </script>
