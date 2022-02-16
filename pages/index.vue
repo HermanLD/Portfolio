@@ -73,7 +73,7 @@
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
       <div class="container px-4 px-lg-5">
-        Copyright &copy; Herman Dardon 2021
+        Copyright &copy; Herman Dardon {{ getYear }}
       </div>
     </footer>
   </div>
@@ -89,6 +89,12 @@ export default {
       about,
       projects,
     }
+  },
+  computed: {
+    getYear() {
+      const date = new Date()
+      return date.getFullYear()
+    },
   },
 }
 </script>
