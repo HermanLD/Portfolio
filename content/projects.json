@@ -1,5 +1,13 @@
 [
   {
+    "title": "Space Travels",
+    "slug": "space-travels",
+    "description": "A Space Travel multi-page site. Built from a Figma design using Tailwindcss & 11ty",
+    "image": "https://raw.githubusercontent.com/HermanLD/space-travel/main/images/space-travel-screenshot.png",
+    "site": "https://space-travel-wine.vercel.app/",
+    "repository": "https://github.com/HermanLD/space-travel"
+  },
+  {
     "title": "Insure Landing Page",
     "slug": "insure-landing-page",
     "description": "A landing page built from png image mockups",
@@ -38,13 +46,5 @@
     "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/pig-game-omega.vercel.app__c7bcd7.png",
     "site": "https://pig-game-omega.vercel.app/",
     "repository": "https://github.com/HermanLD/pig-game"
-  },
-  {
-    "title": "Sign Up Landing Page",
-    "slug": "sign-up",
-    "description": "Membership Sign Up landing page w/ Javascript form validation",
-    "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/intro-sign-up-component.vercel.app__lybrz7.png",
-    "site": "https://intro-sign-up-component-g5cp380zu.now.sh/",
-    "repository": "https://github.com/HermanLD/Intro-sign-up-component"
   }
 ]
