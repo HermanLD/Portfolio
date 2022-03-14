@@ -1,21 +1,5 @@
 [
   {
-    "title": "Space Travels",
-    "slug": "space-travels",
-    "description": "A Space Travel multi-page site. Built from a Figma design using Tailwindcss & 11ty",
-    "image": "https://raw.githubusercontent.com/HermanLD/space-travel/main/images/space-travel-screenshot.png",
-    "site": "https://space-travel-wine.vercel.app/",
-    "repository": "https://github.com/HermanLD/space-travel"
-  },
-  {
-    "title": "Insure Landing Page",
-    "slug": "insure-landing-page",
-    "description": "A landing page built from png image mockups",
-    "image": "https://raw.githubusercontent.com/HermanLD/insure-landing/main/images/insure-screenshot.png",
-    "site": "https://insure-landing-seven.vercel.app/",
-    "repository": "https://github.com/HermanLD/insure-landing"
-  },
-  {
     "title": "Weather App",
     "slug": "weather-app",
     "description": "Fullstack app built using Vue.js, Node, and Express",
@@ -30,6 +14,22 @@
     "image": "https://res.cloudinary.com/nimbus8/image/upload/v1636489432/Portfolio/the-stock-trader.vercel.app__1_wb2vak.png",
     "site": "https://the-stock-trader.now.sh/",
     "repository": "https://github.com/HermanLD/the-stock-trader"
+  },
+  {
+    "title": "Space Travels",
+    "slug": "space-travels",
+    "description": "A Space Travel multi-page site. Built from a Figma design using Tailwindcss & 11ty",
+    "image": "https://raw.githubusercontent.com/HermanLD/space-travel/main/images/space-travel-screenshot.png",
+    "site": "https://space-travel-wine.vercel.app/",
+    "repository": "https://github.com/HermanLD/space-travel"
+  },
+  {
+    "title": "Insure Landing Page",
+    "slug": "insure-landing-page",
+    "description": "A landing page built from png image mockups",
+    "image": "https://raw.githubusercontent.com/HermanLD/insure-landing/main/images/insure-screenshot.png",
+    "site": "https://insure-landing-seven.vercel.app/",
+    "repository": "https://github.com/HermanLD/insure-landing"
   },
   {
     "title": "Luiza's Blog",
