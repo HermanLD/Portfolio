@@ -20,10 +20,10 @@
           <p class="text-black-50 mb-4">
             {{ project.description }}
           </p>
-          <button class="btn btn-secondary" :href="project.site">SITE</button>
-          <button class="btn btn-outline-secondary" :href="project.repository">
+          <a class="btn btn-secondary" :href="project.site">SITE</a>
+          <a class="btn btn-outline-secondary" :href="project.repository">
             CODE
-          </button>
+          </a>
         </div>
       </div>
     </div>
