@@ -23,6 +23,10 @@ export default {
         content:
           'https://res.cloudinary.com/nimbus8/image/upload/v1636573988/Portfolio/portfolio_g9n5kf.png',
       },
+      {
+        property: 'og:url',
+        content: 'https://portfolio-hdardon91.vercel.app',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './assets/favicon.ico' },
