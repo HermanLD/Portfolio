@@ -21,7 +21,7 @@
               {{ about.title }}
             </h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5">
-              {{ about.job_title }}
+              {{ about.jobTitle }}
             </h2>
             <SocialLinks></SocialLinks>
           </div>
@@ -34,7 +34,7 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8">
             <h2 class="text-white mb-4">
-              {{ about.short_description }}
+              {{ about.shortDescription }}
             </h2>
             <p class="text-white-50">
               {{ about.description }}
@@ -81,15 +81,30 @@
 
 <script>
 export default {
-  async asyncData({ $content }) {
-    const about = await $content('about').fetch()
-    const projects = await $content('projects').fetch()
+  async asyncData({ $http, env }) {
+    $http.setToken(env.SECRET_TOKEN, env.SECRET_SALT)
 
-    return {
-      about,
-      projects,
+    try {
+      const aboutRes = await $http.get('http://localhost:1337/api/about')
+      const projectsRes = await $http.get(
+        'http://localhost:1337/api/projects?populate=*'
+      )
+
+      const aboutObj = await aboutRes.json()
+      const projectsObj = await projectsRes.json()
+
+      $http.setToken(false)
+
+      return {
+        about: aboutObj.data.attributes,
+        projects: projectsObj.data,
+      }
+    } catch (e) {
+      $http.setToken(false)
+      throw new Error(e)
     }
   },
+  fetchKey: 'home-page',
   computed: {
     getYear() {
       const date = new Date()

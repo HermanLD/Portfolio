@@ -4,24 +4,29 @@
     <!-- TODO: SETUP LOOP -->
     <div
       v-for="project in projects"
-      :key="project.slug"
+      :key="project.attributes.slug"
       class="row gx-0 mb-4 mb-lg-5 align-items-center"
     >
       <div class="col-xl-8 col-lg-7">
         <img
-          class="filter-grayscale img-fluid mb-3 mb-lg-0"
-          :src="project.image"
+          class="project-img img-fluid mb-3 mb-lg-0"
+          :src="project.attributes.image.data.attributes.formats.medium.url"
           alt="Project image"
         />
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
-          <h4>{{ project.title }}</h4>
+          <h4>{{ project.attributes.title }}</h4>
           <p class="text-black-50 mb-4">
-            {{ project.description }}
+            {{ project.attributes.description }}
           </p>
-          <a class="btn btn-secondary" :href="project.site">SITE</a>
-          <a class="btn btn-outline-secondary" :href="project.repository">
+          <a class="btn btn-secondary" :href="project.attributes.siteUrl"
+            >SITE</a
+          >
+          <a
+            class="btn btn-outline-secondary"
+            :href="project.attributes.repoUrl"
+          >
             CODE
           </a>
         </div>
@@ -42,7 +47,8 @@ export default {
 </script>
 
 <style>
-.filter-grayscale {
+.project-img {
   filter: grayscale(100%);
+  object-fit: cover;
 }
 </style>

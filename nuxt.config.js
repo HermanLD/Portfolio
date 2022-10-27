@@ -70,8 +70,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    // https://http.nuxtjs.org/
+    '@nuxt/http',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -82,5 +82,7 @@ export default {
 
   env: {
     MY_EMAIL: process.env.MY_EMAIL,
+    SECRET_TOKEN: process.env.SECRET_TOKEN,
+    SECRET_SALT: process.env.SECRET_SALT,
   },
 }

@@ -41,8 +41,8 @@ export default {
       myEmail: '',
     }
   },
-  async fetch() {
-    this.myEmail = await this.$nuxt.context.env.MY_EMAIL
+  async fetch({ env }) {
+    this.myEmail = await env.MY_EMAIL
   },
 }
 </script>
