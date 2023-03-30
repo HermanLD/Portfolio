@@ -8,7 +8,7 @@ image:
   }
 links:
   {
-    demo: "https://fm-entertain-app.vercel.app/login",
+    demo: "https://fm-entertain-app.vercel.app",
     github: "https://github.com/HermanLD/FM-entertain-app",
   }
 category: "Fullstack App"
