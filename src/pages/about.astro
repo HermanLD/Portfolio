@@ -1,0 +1,71 @@
+---
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+const renoPhotoCollage = [
+  {
+    src: "/images/joel-barwick-nmHpOPGW8Ew-unsplash.png",
+    alt: "Image by Joel Barwick on unsplash",
+  },
+  {
+    src: "/images/manny-becerra-K6U-aI8aWSs-unsplash.png",
+    alt: "Image by Manny Becerra on unsplash",
+  },
+  {
+    src: "/images/zach-vessels-KFYtSglyLNc-unsplash.png",
+    alt: "Image by Zach Vessels on unsplash",
+  },
+];
+---
+
+<Layout title="About">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">About</Fragment>
+      <Fragment slot="desc">Self-taught Web Developer.</Fragment>
+    </Sectionhead>
+
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <h2 class="font-bold text-3xl text-gray-800">
+        Passion for learning new things.
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500">
+        I have been living in Reno Nevada for 9 years. I worked most of those
+        years as a production / warehouse worker. With an interest in graphic
+        design, I eventually moved on to a position as a Graphic Artist for a
+        local personalized glassware ecommerce company. Finding that I didn't
+        enjoy graphic design, I became interested in how the website and backend
+        were built.
+      </p>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Since, I've built multiple projects and learned how to build with web
+        programing technologies. Along with web development, I enjoy spending
+        time outdoors with my girlfriend and dogs. Keeping up with mixed martial
+        arts news and learning traditional Latin cooking.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+      {
+        renoPhotoCollage.map((photo) => (
+          <div class="group">
+            <div class="w-full aspect-square">
+              <Picture
+                src={photo.src}
+                alt={photo.alt}
+                sizes="(max-width: 800px) 100vw, 400px"
+                widths={[200, 400]}
+                aspectRatio="1:1"
+                background="#ffffff"
+                fit="cover"
+                position="center"
+                class="w-full rounded-md transition group-hover:-translate-y-1 group-hover:shadow-xl"
+              />
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </Container>
+</Layout>

@@ -1,0 +1,81 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Link from "@components/ui/link.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const projectList = await getCollection("projects", ({ data }) => {
+  return !data.draft;
+});
+---
+
+<Layout title="My Work">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">My Work</Fragment>
+      <Fragment slot="desc">
+        Static websites, email templates, and full stack apps.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          projectList.map((projectEntry, index) => (
+            <li>
+              <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                <Picture
+                  src={projectEntry.data.image.src}
+                  alt={projectEntry.data.image.alt}
+                  sizes="(max-width: 800px) 100vw, 800px"
+                  widths={[200, 400, 800]}
+                  aspectRatio="16:9"
+                  background="#ffffff"
+                  fit="cover"
+                  position="center"
+                  loading={index <= 2 ? "eager" : "lazy"}
+                  decoding={index <= 2 ? "sync" : "async"}
+                  class="w-full rounded-md"
+                />
+                <div>
+                  <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                    {projectEntry.data.category}
+                  </span>
+
+                  <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                    {projectEntry.data.title}
+                  </h2>
+
+                  <div class="flex gap-2 mt-3">
+                    <span class="text-gray-400">
+                      {projectEntry.data.tags[0]}
+                    </span>
+                    <span class="text-gray-400">• </span>
+                    <span class="text-gray-400">
+                      {projectEntry.data.tags[1]}
+                    </span>
+                  </div>
+                  <div class="flex gap-2 mt-3">
+                    <>
+                      <Link
+                        href={projectEntry.data.links.demo}
+                        size="md"
+                        style="outline">
+                        Demo
+                      </Link>
+                      <Link href={projectEntry.data.links.github} size="md">
+                        Code
+                      </Link>
+                    </>
+                  </div>
+                </div>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>
